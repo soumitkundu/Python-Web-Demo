@@ -1,0 +1,19 @@
+Resource:
+https://www.youtube.com/watch?v=jQjjqEjZK58
+
+1st open a bash or Git Bash terminal then run the below commands to create and activate the Virtual Environment.
+
+Create Virtual Environment:
+py -m venv .venv
+
+Activate the Virtual Environment:
+source .venv/Scripts/activate
+
+Install required packages
+pip install requests python-dotenv Flask
+
+Upgrade pip version (optional)
+py -m pip install -U pip
+
+Create requirements file
+pip freeze > requirements.txt
